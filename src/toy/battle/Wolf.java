@@ -1,10 +1,8 @@
 package toy.battle;
 
-public class Wolf extends Animal{
+public class Wolf extends Animal {
+
     public Wolf(String name) {
-        super(name, 40, 12, 2);
-    }
-    @Override public String type() {
-        return "WOLF";
+        super(name, 40, 12, 2, Species.WOLF);
     }
 }
